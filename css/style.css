@@ -1,0 +1,14 @@
+body{
+	position: relative;
+	font-family: RobotoGgFont;
+}
+#home{
+	height: 831px;
+}
+#home > .carousel-inner > .item > img{
+	height: 831px;
+}
+@font-face {
+    font-family: RobotoGgFont;
+    src: url('../Font/Roboto-Regular.ttf');
+}

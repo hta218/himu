@@ -1,0 +1,95 @@
+.navbar{
+  background: rgba(100, 255, 255, 0.89);
+  border-color: white;
+  height: 80px;
+}
+body > .navbar #himu{
+  float: right;
+  margin-top: 10px;
+/*   padding-right: 5%; */
+/*   width: 768px; */
+  margin-right: 7%;
+}
+.navbar > .container-fluid > #himu > ul{
+  float: right;
+  margin-top: 10px;
+  height: 50px;
+/*   width: 100%; */
+}
+body > .navbar .active a{
+  background: #fc7700 !important;
+  color: #fff !important;
+}
+body > .navbar .navbar-header{
+  margin-left: 5%; 
+  margin-top: 5px;
+}
+.navbar > .container-fluid > #himu > ul > li{
+  margin-left: 1px;
+}
+body > .navbar > .container-fluid > #himu > ul > li > a{
+  color: #43484E;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  height: 40px;
+  padding-top: 10px;
+  padding: 10px 14px;
+}
+.navbar > .container-fluid > #himu > ul > li > a:hover{
+  background: #fc7700;
+  color: white;
+}
+body > .navbar .navbar-header button{
+    display: none;
+}
+
+/* responsive :< */
+@media screen and (min-width: 768px) and (max-width: 991px){
+  body > .navbar{
+    height: 150px;
+  }
+  body > .navbar .navbar-header button{
+    display: none;
+  }
+  body > .navbar #himu{
+    margin-right: -1.5%;
+    width: 103%;
+    clear: both;
+    text-align: center;
+  }
+  body > .navbar #himu a{
+    padding: 0 13px;
+  }
+}
+
+/* col-xs */
+@media screen and (max-width: 767px){
+  body > .navbar .navbar-header{
+    width: 100%;
+    margin-left: 0%;
+  }
+  body > .navbar .navbar-header button{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #fff;
+    background: #333;
+    padding: 5px 10px;
+  } 
+  body > .navbar #himu{
+    width: 107%;
+    margin-right: -3.6%;
+    background: rgba(100, 255, 255, 0.89);
+    margin-top: 2.2%;
+    height: 332px;
+  }
+  body > .navbar #himu ul{
+    width: 107%;
+  }
+  body > .navbar .navbar-header button{
+    display: block;
+  }
+  
+/*  btn click animation  */
+  
+}

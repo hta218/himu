@@ -1,0 +1,9 @@
+.pp_next, .pp_previous{
+  display: none !important;
+}
+.pp_gallery .selected a{
+  display: none !important;;
+}
+#widget .btn-o #b{
+  display: none !important;
+}

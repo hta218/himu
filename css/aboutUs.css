@@ -1,0 +1,140 @@
+body > #aboutUs{
+  padding-top: 70px;
+  background: #F6F6F6;
+}
+body > #aboutUs >h1 > b{
+  color: #fc7700;
+}
+body > #aboutUs > h1{
+  text-transform: uppercase;
+  color: #666666;
+  font-weight: 600;
+}
+body > #aboutUs > p{
+  font-size: 15px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px 0px 30px 0px;
+  color: #43484E;
+}
+body > #aboutUs > div{
+  padding-bottom: 60px;
+  text-align: center;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+body > #aboutUs > div > div{
+  float: left;
+  padding: 0px 20px;
+}
+#aboutUs h3{
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 550;
+  color: #43484E;
+  margin: 20px 0px;
+}
+#aboutUs #whyWithUs .tab-content{
+  background-color: white;
+  height: 250px;
+  padding: 5%;
+}
+#aboutUs #whyWithUs .tab-content img{
+  width: 50%;
+  float: left;
+  margin-right: 5%;
+}
+#aboutUs #whyWithUs .tab-content p{
+  text-align: left;
+  width: 45%;
+  float: left;
+  font-weight: 300;
+  font-size: 15px;
+  color: #43484E;
+}
+#aboutUs #whyWithUs ul li{
+  width: 25%;
+  text-align: left;
+}
+#aboutUs #whyWithUs ul li i{
+  font-size: 15px;
+  margin-right: 5%;
+} 
+#aboutUs #whyWithUs ul li a{
+  color: #fc7700;
+}
+
+/* skill  */
+
+#aboutUs #skills .progress-bar{
+  padding: 8px 15px;
+  font-weight: bold;
+  font-size: 13px;
+}
+#aboutUs #skills .progress > span{
+  color: white;
+  margin: 8px 10px;
+}
+
+/* responsive :< */
+@media screen and (min-width: 768px) and (max-width: 991px){
+  #aboutUs > div{
+    padding: 0%; 
+    width: 100%;
+  }
+  #aboutUs #skills{
+    padding: 0px;
+    padding-left: 1%;
+  }
+  #aboutUs #whyWithUs{
+    padding: 0px;
+    padding-right: 1%;
+  }
+  #aboutUs #whyWithUs .tab-content{
+    height: 320px;
+    overflow: hidden;
+  }
+  #aboutUs #whyWithUs > ul > li{
+    width: 33%;
+    padding-left: 0%;
+    font-size: 12px;
+  }
+  #aboutUs #whyWithUs > ul > li:last-of-type{
+    width: 34%;
+  }
+  #aboutUs #whyWithUs > ul > li i{
+    margin-left: -13%;
+  }
+  #aboutUs #skills span{
+    font-size: 11px;
+  }
+  #aboutUs #skills > div:first-of-type > span{
+    margin-top: -25px;
+    margin-right: 5px;
+  }
+}
+
+/* col-xs */
+@media screen and (max-width: 767px){
+  body > #aboutUs > h1{
+    font-size: 24px;
+  }
+  body > #aboutUs > p{
+   font-size: 14px;
+   width: 90%;
+  }
+  body > #aboutUs .col-sm-12 .col-xs-12{
+    width: 120%;
+    margin-left: -10%;
+    margin-bottom: 5%;
+  }
+  body > #aboutUs #whyWithUs ul li{
+    width: 31%;
+    font-size: 12px;
+  }
+  #aboutUs #whyWithUs > ul > li:last-of-type{
+    width: 38%;
+  }
+}
+

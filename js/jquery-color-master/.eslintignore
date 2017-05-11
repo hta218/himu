@@ -1,0 +1,4 @@
+bower_component/**
+dist/**
+external/**
+node_modules/**

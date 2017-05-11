@@ -1,0 +1,21 @@
+body > footer{
+  text-align: center;
+  padding: 40px 0px 25px 0px;
+  font-size: 17px;
+  color: #43484E;
+  background: #f7f7f7;
+}
+body > footer a span{
+  color: #fc7700;
+  ffont-weight: 400;
+}
+body > footer a:hover{
+  text-decoration: none;
+}
+
+/* responsive */
+@media screen and (max-width: 767px){
+  body > footer{
+    font-size: 14px;
+  }
+}

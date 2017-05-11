@@ -1,0 +1,126 @@
+body > #contact{
+  padding-top: 70px;
+  padding-bottom: 6%;
+  background: #e6dddd;
+  width: 100%;
+  margin-top: 5%;
+}
+body > #contact > h1 > b{
+  color: #fc7700;
+  margin: 0% 2%;
+}
+body > #contact > h1{
+  text-transform: uppercase;
+  color: #666666;
+  font-weight: 600;
+}
+body > #contact > p{
+  line-height: 1.5;
+  font-size: 16px;
+  width: 70%;
+  margin: 2% auto;
+  padding: 30px 0px 30px 0px;
+  color: #43484E;
+}
+
+body > #contact .col-md-5{
+  background-color: #c8cfce;
+  float: left;
+  width: 47%;
+  margin: 0% 1.5%;
+}
+body > #contact #devscluster{
+  padding: 6%;
+  text-align: center;
+}
+body > #contact #devscluster h2{
+  font-weight: bolder;
+  margin-bottom: 5%;
+}
+body > #contact #devscluster h2 span{
+  color: #fc7700;
+}
+body > #contact #devscluster .contacts{
+  margin-top: 5%;
+  font-size: 22px;
+}
+body > #contact #devscluster .contacts a{
+  padding: 15px 17px;
+  margin: 0px 3px;
+  border: 1px solid #A2A2A2;
+  border-radius: 50%;
+  color: #43484E;
+}
+body > #contact #devscluster .contacts .fa-facebook{
+  padding: 0px 5px;
+}
+body > #contact #devscluster .contacts .fa-dribbble, 
+body > #contact #devscluster .contacts .fa-linkedin{
+  padding: 0px 3px;
+}
+
+/* form */
+body > #contact #frm{
+  padding: 4% 2% 2% 2%;
+} 
+body > #contact #frm input{
+  width: 45%;
+  margin: 0% 2.5% 5% 2.5%;
+  float: left;
+}
+body > #contact #frm input:first-of-type{
+/*   border: 1px solid black; */
+}
+body > #contact #frm textarea{
+  margin: 0% 2.5%;
+  width: 95%;
+  height: 150px;
+}
+body > #contact #frm button{
+  font-weight: 800;
+  width: 25%;
+  font-size: 14px;
+  padding: 12px 0%;
+  margin: 5% 37.5% 5% 37.5%;
+  background: #fc7700;
+  color: #fff;
+}
+body > #contact #frm textarea{
+  resize: none;
+}
+
+/* responsive :< */
+@media screen and (min-width: 768px) and (max-width: 991px){
+  body > #contact #devscluster .contacts a{
+    padding: 6px 8px;    
+  }
+}
+
+/* responsive col-xs */
+@media screen and (max-width: 767px){
+  body > #contact > h1{
+    font-size: 24px;
+  }
+  body > #contact > p{
+   font-size: 14px;
+   width: 90%;
+  }
+  body > #contact .container{
+    width: 100%;
+    text-align: center;
+  }
+  body > #contact .col-xs-12{
+    width: 100%;
+    margin: 0 auto;
+  }
+  body > #contact #frm{
+    padding: 10% 0% 0% 0%;
+    width: 100%;
+  }
+  body > #contact #devscluster .contacts a{
+    padding: 10px 12px;
+  }
+  body > #contact #devscluster .contacts .fa-google-plus{
+    padding: 10px 0px;
+  }
+}

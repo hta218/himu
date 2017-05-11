@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo Pretty Photo</title>
+	<link rel="stylesheet" type="text/css" href="PP/css/prettyPhoto.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="PP/js/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<!-- <script src="jquery.js" type="text/javascript" charset="utf-8"></script> -->
+	<script src="PP/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	
+</head>
+<body>
+	<a rel="prettyPhoto[myGallery]" title="Cocoa Pod" href="girl.jpg">
+      <img alt="picture of cocoa pod split open" src="PP/images/thumbnails/t_1.jpg" />
+  	</a>   
+	<script type="text/javascript" charset="utf-8">
+       $(document).ready(function(){
+         $("a[rel^='prettyPhoto']").prettyPhoto();
+       });
+     </script>
+</body>
+</html>

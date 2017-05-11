@@ -1,0 +1,95 @@
+body > #services{
+  background-image: url('../img/service-bg.jpg');
+  padding: 70px 0px;
+  color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  clear: both;
+}
+body > #services > h1 > b{
+  color: #fc7700;
+  margin: 0px 1%;
+}
+body > #services > h1{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+body > #services > p{
+  font-size: 15px;
+  width: 55%;
+  margin: 20px auto;
+  padding: 30px 0px 30px 0px;
+}
+
+/* service items */
+body > #services .container{
+  width: 85%;
+}
+body > #services .col-md-3{
+  width: 30%;
+  margin: 5% 1.5% 0% 1.5%;
+  padding: 2%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.39);
+}
+body > #services .col-md-3 .fa{
+  font-size: 90px;
+  color: #43484E;
+  border-radius: 50%;
+/*   padding: 9% 11%; */
+  margin: 5% 0%;
+  background: #fff;
+}
+body > #services .fa-th{
+  padding: 10% 10%;
+}
+body > #services .fa-html5{
+  padding: 10% 13%;
+}
+body > #services .fa-users{
+  padding: 10% 9%;
+}
+body > #services .col-md-3 h2{
+  font-size: 35px;
+  font-weight: 500;
+  margin: 7% 0%;
+}
+body > #services .col-md-3 p{
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* responsive :< */
+@media screen and (min-width: 768px) and (max-width: 991px){
+  body > #services > p{
+    width: 80%;
+  }
+  body > #services h2{
+    font-size: 26px !important;
+  }
+}
+
+/* col-xs */
+@media screen and (max-width: 767px){
+  body > #services > h1{
+    font-size: 24px;
+  }
+  body > #services > p{
+   font-size: 14px;
+   width: 90%;
+  }
+  body > #services > .container{
+    width: 100%;
+  }
+  body > #services > .container .col-xs-12{
+    width: 100%;
+    margin: 0 auto;
+  }
+  body > #services > .container .col-xs-12 .fa{
+    font-size: 80px;
+  }
+  body > #services .fa-html5{
+    padding: 10% 12%;
+  }
+}
+
